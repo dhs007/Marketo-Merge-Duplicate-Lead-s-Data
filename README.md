@@ -8,15 +8,15 @@ The project aims at merging the duplicate lead records in the marketo (Two recor
 This is done by importing the part of lead database from the marketo in to the local system's database (MySQL Database) and cheking for duplicates. Marketo by default allows only a month's lead data to be imported on a signle import operation. 
 
 ## Dependencies:
--> Java (minimum java version reqd. :6) [Install Java](https://www.java.com/en/download/) <br/>
--> Database: MySQL.[Install MYSQL](https://dev.mysql.com/doc/mysql-installation-excerpt/5.5/en/windows-install-archive.html) This application assumes database user name as : "root" and password as ""<br/>
+-> Java (minimum java version reqd. :6)  [Install Java](https://www.java.com/en/download/) <br/>
+-> Database: MySQL. [Install MYSQL](https://dev.mysql.com/doc/mysql-installation-excerpt/5.5/en/windows-install-archive.html) This application assumes database user name as : "root" and password as ""<br/>
 -> Apache Tomcat WebServer (Version 6 or higher) [Download TomcatWebserver](https://tomcat.apache.org/download-80.cgi)<br/>
 -> Access to file system of the machine (to create the file and read it while importing it in the MySQL Database)<br/>
 -> Web Browser (Recommended : Chrome (version 72.x))<br/>
 -> Access to Marketo API user (Client ID and Client Secret) <br/>
 
 ## The project is divided in to following modules:
-1) [Import the Data from Marketo's lead database in to Local system](Module 1:)<br/>
+1) Import the Data from Marketo's lead database in to Local system<br/>
 2) Select the Duplicate records<br/>
 3) Merge the records<br/>
 4) Clean-up process<br/>
