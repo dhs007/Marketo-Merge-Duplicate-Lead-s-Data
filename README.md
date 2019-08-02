@@ -18,7 +18,7 @@ This is done by importing the part of lead database from the marketo in to the l
 -> External JARS required: <br/>
     a) `mysql-connector-java-5.1.44` [Download from here](https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.44/mysql-connector-java-5.1.44.jar) <br/>
     b) `minimal-json-0.9.2` [Download from here](https://repo1.maven.org/maven2/com/eclipsesource/minimal-json/minimal-json/0.9.2/minimal-json-0.9.2.jar) <br/>
-    c) 'opencsv-2.4` [Download from here](https://repo1.maven.org/maven2/au/com/bytecode/opencsv/2.4/opencsv-2.4.jar) <br/>
+    c) `opencsv-2.4` [Download from here](https://repo1.maven.org/maven2/au/com/bytecode/opencsv/2.4/opencsv-2.4.jar) <br/>
     
 ## Guide to run the project:
 1) Setup the Apache Tomcat Web server in Eclipse [How to do it in Eclipse?](https://crunchify.com/step-by-step-guide-to-setup-and-install-apache-tomcat-server-in-eclipse-development-environment-ide/) <br/>
