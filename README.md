@@ -26,7 +26,9 @@ This is done by importing the part of lead database from the marketo in to the l
 3) Configure the build path for External JARS mentioned in the dependencies. [How to do it in Eclipse?](https://stackoverflow.com/questions/3280353/how-to-import-a-jar-in-eclipse) <br/>
 4) Run the project [How to run a Dynamic Web Project in Eclipse](http://www.srccodes.com/p/article/2/JSP-Hello-World-Program-using-Eclipse-IDE-and-Tomcat-web-server) <br/>
 
-## The project is divided in to following modules:
+## Deep Dive in to the working of the application
+
+### The project is divided in to following modules:
 1) Import the Data from Marketo's lead database in to Local system<br/>
 2) Select the Duplicate records<br/>
 3) Merge the records<br/>
