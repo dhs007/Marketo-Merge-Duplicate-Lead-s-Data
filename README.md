@@ -60,18 +60,18 @@ Responsible for selecting all the records having the same email address and disp
 ### Module 3:
 -> Merge the Duplicate Records:
 There are namely two ways in which duplicate records can be merged using the application:
-a) Manually selecting the records that are to be merged
-One can use the check-boxes to select the records that they wish to merge. However before merging any record with another record(s) following conditions are checked:
-i) All the selected records must have same email address
-ii) All the selected records should either have the sfdc type as null (not synced with salesforce) or they should have same sfdc type as either *Customer* or *Lead*
-Select the records that you wish to merge and select the Merge Records button to merge them. 
-b) Let the application select all the Duplicate records automatically andMerge them.
+a) Manually selecting the records that are to be merged. <br/>
+One can use the check-boxes to select the records that they wish to merge. However before merging any record with another record(s) following conditions are checked: <br/>
+i) All the selected records must have same email address <br/>
+ii) All the selected records should either have the sfdc type as null (not synced with salesforce) or they should have same sfdc type as either *Customer* or *Lead* <br/>
+Select the records that you wish to merge and select the Merge Records button to merge them. <br/>
+b) Let the application select all the Duplicate records automatically andMerge them. <br/>
 
-If the records are merged successfully in the marketo as well a status code *True* is returend from the marketo's server and "Lead Records Merged Successfully" is displayed in the UI. 
+If the records are merged successfully in the marketo as well a status code *True* is returend from the marketo's server and "Lead Records Merged Successfully" is displayed in the UI. <br/>
 Incase the selected records don't have same Email addresses then an Error message: *Mail IDs are not same* is printed.
-Incase the selected records don't have same SFDC types the then an Error message: *SFDC type for all the records are not same* is printed.
+Incase the selected records don't have same SFDC types the then an Error message: *SFDC type for all the records are not same* is printed.<br/>
 
-The records that are merged in the marketo are deleted in the local MYSQL database as well just to maintain the data consistency between the marketo and the local database.
+The records that are merged in the marketo are deleted in the local MYSQL database as well just to maintain the data consistency between the marketo and the local database.<br/>
 
 ### Module 4: 
 Clean Up process: 
