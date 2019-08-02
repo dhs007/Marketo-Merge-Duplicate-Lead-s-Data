@@ -10,10 +10,21 @@ This is done by importing the part of lead database from the marketo in to the l
 ## Dependencies:
 -> Java (minimum java version reqd. :6)  [Install Java](https://www.java.com/en/download/) <br/>
 -> Database: MySQL. [Install MYSQL](https://dev.mysql.com/doc/mysql-installation-excerpt/5.5/en/windows-install-archive.html) This application assumes database user name as : "root" and password as ""<br/>
+-> Preffered IDE Eclipse. [Install Eclipse] (https://www.eclipse.org/downloads/packages/installer) 
 -> Apache Tomcat WebServer (Version 6 or higher) [Download TomcatWebserver](https://tomcat.apache.org/download-80.cgi)<br/>
 -> Access to file system of the machine (to create the file and read it while importing it in the MySQL Database)<br/>
 -> Web Browser (Recommended : Chrome (version 72.x))<br/>
 -> Access to Marketo API user (Client ID and Client Secret) <br/>
+-> External JARS required: <br/>
+    a) `mysql-connector-java-5.1.44` [Download from here](https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.44/mysql-connector-java-5.1.44.jar) <br/>
+    b) `minimal-json-0.9.2` [Download from here](https://repo1.maven.org/maven2/com/eclipsesource/minimal-json/minimal-json/0.9.2/minimal-json-0.9.2.jar) <br/>
+    c) 'opencsv-2.4` [Download from here](https://repo1.maven.org/maven2/au/com/bytecode/opencsv/2.4/opencsv-2.4.jar) <br/>
+    
+## Guide to run the project:
+1) Setup the Apache Tomcat Web server in Eclipse [How to do it in Eclipse?](https://crunchify.com/step-by-step-guide-to-setup-and-install-apache-tomcat-server-in-eclipse-development-environment-ide/) <br/>
+4) Import the all the project files in to the new Dynamic Web Project in an IDE (preferably Eclipse).  [How to do it in Eclipse](https://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.stardust.docs.wst%2Fhtml%2Fwst-integration%2Fdynamic-web-proj.html) <br/>
+3) Configure the build path for External JARS mentioned in the dependencies. [How to do it in Eclipse?](https://stackoverflow.com/questions/3280353/how-to-import-a-jar-in-eclipse) <br/>
+4) Run the project [How to run a Dynamic Web Project in Eclipse](http://www.srccodes.com/p/article/2/JSP-Hello-World-Program-using-Eclipse-IDE-and-Tomcat-web-server) <br/>
 
 ## The project is divided in to following modules:
 1) Import the Data from Marketo's lead database in to Local system<br/>
