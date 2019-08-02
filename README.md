@@ -95,5 +95,5 @@ Clean up removes the created CSV file ("LeadDataJava") from the system and also 
 
 ### Image 1 : Selecting Start and End Date
 
-![Image to select start and end date](https://drive.google.com/open?id=1uqtCiiZE8PFO96w7kAOOXaNoJpvY-9mD) <br/>
+![Image to select start and end date](https://drive.google.com/file/d/1uqtCiiZE8PFO96w7kAOOXaNoJpvY-9mD/view) <br/>
 
