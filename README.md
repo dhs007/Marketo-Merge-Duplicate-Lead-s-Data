@@ -101,3 +101,23 @@ Clean up removes the created CSV file ("LeadDataJava") from the system and also 
 
 ![Import Completed](https://drive.google.com/uc?export=view&id=1HdkDviSRdKBwDorMBon0YNYcoRB9kwwq) <br/>
 
+### Duplicate Records in Marketo
+![Duplicate Records](https://drive.google.com/uc?export=view&id=1wJSyjr7l3WyqkgAdm6JgqB7OSvdfvFes)
+
+### View and select duplicate records to be merged in the application
+![Duplicate Records in Application](https://drive.google.com/uc?export=view&id=1DIUtT1Ucubfw7lHlQoOOgzM8bwp2oCJ6)
+
+### Records Merged Successfully 
+![Successful merging of records](https://drive.google.com/uc?export=view&id=1dB2NtidUE_M3KrTI3F2aBZGttdIBGOBo)
+
+### After Merging
+![After Merging](https://drive.google.com/uc?export=view&id=1kDTaI8-HUTGyycxeblHNq9Q9y8oHiCvt)
+
+### Selected records merged in Marketo as well 
+![MErged in marketo as well](https://drive.google.com/uc?export=view&id=1zXMBuljnPgheOvFHX4ME7pSBnAd36mEe)
+
+### Merge All Records
+![Merge All operation in application](https://drive.google.com/uc?export=view&id=1NMRQo6HyMDJ32D_z4FFOcVCAhfcvDQvK)
+
+### Checking for Duplicates after Merge All operation 
+![Checking for Duplicate After merge all](https://drive.google.com/uc?export=view&id=1njkT8EqvdnX_4eLMLv9S0i0esY6H_bsa)
