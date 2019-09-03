@@ -22,7 +22,7 @@ This is done by importing the part of lead database from the marketo in to the l
     
 ## Guide to run the project:
 1) Setup the Apache Tomcat Web server in Eclipse [How to do it in Eclipse?](https://crunchify.com/step-by-step-guide-to-setup-and-install-apache-tomcat-server-in-eclipse-development-environment-ide/) <br/>
-4) Import the all the project files in to the new Dynamic Web Project in an IDE (preferably Eclipse).  [How to do it in Eclipse](https://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.stardust.docs.wst%2Fhtml%2Fwst-integration%2Fdynamic-web-proj.html) <br/>
+2) Import the all the project files in to the new Dynamic Web Project in an IDE (preferably Eclipse).  [How to do it in Eclipse](https://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.stardust.docs.wst%2Fhtml%2Fwst-integration%2Fdynamic-web-proj.html) <br/>
 3) Configure the build path for External JARS mentioned in the dependencies. [How to do it in Eclipse?](https://stackoverflow.com/questions/3280353/how-to-import-a-jar-in-eclipse) <br/>
 4) Run the project [How to run a Dynamic Web Project in Eclipse](http://www.srccodes.com/p/article/2/JSP-Hello-World-Program-using-Eclipse-IDE-and-Tomcat-web-server) <br/>
 
