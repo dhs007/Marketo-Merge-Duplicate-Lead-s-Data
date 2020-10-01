@@ -1,4 +1,4 @@
-package com.tadigital.servlet;
+package com.tadigital.servlet; //Java Version 8, last run on. Proposed changed for the methids in-case the self define methods do not work.
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -29,6 +29,16 @@ public class ExceptionController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+	protected void doGetSomePost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		//In case the auto-generated methods are not called
+		doGet(request, response);
+	}
+	protected void dodoFigureOutPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// For auto-generated methods only
 		doGet(request, response);
 	}
 
