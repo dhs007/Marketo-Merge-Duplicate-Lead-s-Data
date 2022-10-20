@@ -15,7 +15,7 @@ public class Formatingtocsv {
 
 	public String processData(String s) {
 		// your code goes here
-
+		int variableA = 2123;
 		int comma = 0;
 		for (int i = 0; i < s.length(); i++) {
 			if (s.charAt(i) == ',') {
