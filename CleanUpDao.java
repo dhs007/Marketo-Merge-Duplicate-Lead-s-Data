@@ -11,6 +11,10 @@ public class CleanUpDao extends Dao {
 	
 	public String deleteFileAndTable ()  {
 		
+		connection co2 =openConnection();
+		connection co3 = NULL;
+		close();
+		
 		Connection con = openConnection();
 		Statement stmt = openStatement(con);
 		
